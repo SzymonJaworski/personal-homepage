@@ -16,6 +16,10 @@ A modern, responsive personal portfolio built with **React**. The application fe
 * **Live GitHub Integration**: Fetches real-time data from my public repositories.
 
 
+## Demo
+https://szymonjaworski.github.io/personal-homepage/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
