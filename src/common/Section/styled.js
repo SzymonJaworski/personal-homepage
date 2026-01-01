@@ -48,7 +48,7 @@ export const ListItem = styled.li`
   &::before {
     content: "•";
     color: ${({ theme }) => theme.colors.primary};
-    font-size: 2.5em; /* To są te duże kropki ze zdjęcia */
+    font-size: 2.5em;
     margin-right: 16px;
     line-height: 0;
   }

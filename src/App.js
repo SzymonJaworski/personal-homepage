@@ -9,7 +9,6 @@ import Header from "./features/Header";
 import Footer from "./features/Footer";
 import ThemeSwitch from "./common/Section/ThemeSwitch";
 
-// Poprawiony import (upewnij się, że ścieżka jest poprawna w Twoim projekcie!)
 import { Section, SectionTitle, List, ListItem } from "./common/Section/styled";
 import { TileList, Tile, TileTitle, TileLinkContainer, LinkTitle, Link } from "./features/Portfolio/styled";
 
@@ -39,7 +38,7 @@ function App() {
           </List>
         </Section>
 
-        {/* PRZYWRÓCONA SEKCJA */}
+        { }
         <Section>
           <SectionTitle>What I want to learn next 🚀</SectionTitle>
           <List>

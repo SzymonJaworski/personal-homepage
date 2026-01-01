@@ -29,7 +29,7 @@ const Image = styled.img`
 const Content = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Zapewnia, że przycisk nie rozciągnie się na całą szerokość */
+    align-items: flex-start; 
 `;
 
 const Caption = styled.span`
@@ -50,25 +50,25 @@ const Description = styled.p`
     font-size: 20px;
     line-height: 1.4;
     color: ${({ theme }) => theme.colors.textSecondary};
-    margin-bottom: 32px; /* Odstęp pod tekstem przed przyciskiem */
+    margin-bottom: 32px; 
 `;
 
 const ButtonLink = styled.a`
-    display: inline-flex; /* Pozwala na ułożenie ikony obok tekstu */
+    display: inline-flex; 
     align-items: center;
-    gap: 16px; /* Odstęp między ikoną a tekstem */
-    padding: 12px 16px; /* Mniejszy padding, aby przycisk był zgrabniejszy */
+    gap: 16px; 
+    padding: 12px 16px; 
     background: ${({ theme }) => theme.colors.primary};
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-size: 20px; /* Rozmiar czcionki zgodny ze wzorem */
+    font-size: 20px; 
     border-radius: 4px;
     transition: 0.3s;
     
     &:hover { 
         filter: brightness(1.2); 
-        transform: scale(1.02); /* Delikatniejsze powiększenie */
+        transform: scale(1.02); 
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
