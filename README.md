@@ -1,3 +1,21 @@
+# Personal Homepage – Portfolio Project
+
+A modern, responsive personal portfolio built with **React**. The application features a dynamic theme system and integrates with the GitHub API to showcase my latest work.
+
+## 🛠️ Tech Stack
+* **React 18** – Functional components and custom hooks.
+* **Redux Toolkit & Saga** – Advanced state management and side-effects handling for API calls.
+* **Styled Components** – Component-based styling with a global theme provider.
+* **Axios** – Reliable HTTP client for fetching repository data.
+
+## ✨ Key Features
+* **Dual Theme Support**: Fully functional Light and Dark modes.
+* **Custom UI Components**: 
+  * Polished project tiles with dynamic borders in Dark Mode.
+  * Custom skillset list with enlarged, color-coded bullets.
+* **Live GitHub Integration**: Fetches real-time data from my public repositories.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
